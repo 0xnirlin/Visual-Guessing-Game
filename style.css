@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+  }
+  .gamebox {
+    border-radius: 15px;
+    background-color: #1a1b20;
+    height: 500px;
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* justify-content: space-between; */
+  }
+  .heading {
+    margin: 40px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .submission {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .guessField {
+    height: 50px;
+    width: 450px;
+    padding-left: 20px;
+    border-radius: 6px;
+    border: none;
+  }
+  input:focus {
+    outline: none;
+  }
+  .guessSubmit {
+    width: 100px;
+    /* height: 35px; */
+    margin: 20px 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    background-color: #dc526a;
+    font-weight: bold;
+  }
+  .guessSubmit:hover {
+    background-color: #bf5264;
+  }
+
+  .hilo {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin-top: 30px;
+  }
+  .hilo p {
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .low {
+    background-color: #ffffff;
+  }
+  .correct {
+    background-color: #ffffff;
+  }
+  .high {
+    background-color: #ffffff;
+  }
+  .lastguesses {
+    width: 450px;
+    height: 40px;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  button {
+      padding: 10px;
+      background-color:tomato;
+      border-radius: 5px;
+      border: none;
+      margin-top: 20px;
+    }
